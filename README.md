@@ -20,7 +20,11 @@ You will need to change the snmpd configuration file in /etc/snmp/snmpd.conf, ad
 
 ``
 agentaddress udp:161,tcp:161,udp6:161,tcp6:161
+``
+``
 rocommunity public
+``
+``
 rwcommunity private
 ``
 
